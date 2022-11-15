@@ -40,32 +40,3 @@ def lastcall(f: Callable):
         return res
 
     return wrraped
-
-
-if __name__ == '__main__':
-
-    @lastcall
-    def sqr(n: int): return n * n   # args
-
-    @lastcall
-    def add(x: float, y): return x + y
-
-    @lastcall
-    def func(*args): return len(args)
-
-    @lastcall
-    def func2(*args, **kwargs): return len(args) + len(kwargs)
-
-
-    sqr(2)
-    sqr(2)
-    sqr(3)
-    sqr(3)
-    add(1, 2)
-    add(2, x = 1)
-    add(y = 2, x = 1)
-    add(3, 4)
-    func(1, 1, 1)
-    func(1, 1, 1)
-    func2(2, x = 3)
-    func2(2, x = 3)
