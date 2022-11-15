@@ -1,0 +1,13 @@
+abc-d@mail.com
+abc..def@mail.com
+abc.def@mail.com
+.abc@mail.com
+abc@mail.com
+abc#def@mail.com
+hi05@gmail.stupid
+bibi@mai..com
+abc_def@mail.com
+israel123@gmail.com
+yonatan56_d@mail.org
+111kvn@mail.com
+__kvn@mail.com
